@@ -1,0 +1,15 @@
+
+ import static java.lang.System.out;
+ import java.util.ArrayList;
+ class StaticImport {
+    public static void main(String args[]){
+        
+    // ArrayList<Object> l = new ArrayList<>();  
+    // ArrayList<Integer> l = new ArrayList<>();  
+    ArrayList l = new ArrayList();    //uses unchecked or unsafe operations.  
+    l.add(new Integer(10));
+    l.add(new Integer(10));
+    l.add(new Integer(120));
+	 out.println(l);
+	}
+ }
